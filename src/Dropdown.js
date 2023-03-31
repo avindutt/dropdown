@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './dropdown.css';
 
 export default function Dropdown(){
 
@@ -15,12 +16,13 @@ export default function Dropdown(){
 
     return(
         <>
-        <div>
-            <div>Should you use a Dropdown?</div>
-            <button 
+        <div className="container">
+            <div className="ques">Should you use a Dropdown?</div>
+            <button className="btn"
             onMouseEnter={() => setShowItems(true)} 
             >
                 {items || 'Select'} 
+                <img src="https://cdn-icons-png.flaticon.com/512/2985/2985150.png"></img>
                 </button>
                 {showItems && (
                     <ul>
