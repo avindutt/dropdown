@@ -15,7 +15,7 @@
 }
 
 .btn {
-    width: 12.4rem;
+    width: 14.9rem;
     background-color: rgb(255, 255, 255);
     border: none;
     padding: 6px;
@@ -37,7 +37,7 @@ ul li {
 img {
     height: 1.2rem;
     width: 1.2rem;
-    position: relative;
-    top: 4.9px;
-    left: 3.86rem;
+    position: absolute;
+    top: 4.3rem;
+    right: 8rem;
 }
